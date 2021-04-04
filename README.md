@@ -1,8 +1,8 @@
 # neethuvarghese.github.io
 
-# Getting Started with Create React App
+## Material UI Portfolio
 
-A protfolio Project bootstrapped with [Create React App](https://github.com/facebook/create-react-app) with Material UI
+A portfolio single page application using React and Material UI
 
 ## Available Scripts
 

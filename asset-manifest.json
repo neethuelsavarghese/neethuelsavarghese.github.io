@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.176c6fd7.chunk.css",
+    "main.js": "/static/js/main.d74ce07b.chunk.js",
+    "main.js.map": "/static/js/main.d74ce07b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.831c626a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.831c626a.js.map",
+    "static/js/2.45bc7f84.chunk.js": "/static/js/2.45bc7f84.chunk.js",
+    "static/js/2.45bc7f84.chunk.js.map": "/static/js/2.45bc7f84.chunk.js.map",
+    "static/js/3.a35fe265.chunk.js": "/static/js/3.a35fe265.chunk.js",
+    "static/js/3.a35fe265.chunk.js.map": "/static/js/3.a35fe265.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.176c6fd7.chunk.css.map": "/static/css/main.176c6fd7.chunk.css.map",
+    "static/js/2.45bc7f84.chunk.js.LICENSE.txt": "/static/js/2.45bc7f84.chunk.js.LICENSE.txt",
+    "static/media/avatar.a6f921ee.png": "/static/media/avatar.a6f921ee.png",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/App.css": "/static/media/mac-coffee.a0c19713.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.831c626a.js",
+    "static/js/2.45bc7f84.chunk.js",
+    "static/css/main.176c6fd7.chunk.css",
+    "static/js/main.d74ce07b.chunk.js"
+  ]
+}

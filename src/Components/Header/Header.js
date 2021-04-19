@@ -30,18 +30,16 @@ const useStyles = makeStyles({
 });
 
 const navLinks = [
-  { title: `about us`, path: `/about-us` },
-  { title: `product`, path: `/product` },
-  { title: `blog`, path: `/blog` },
+  { title: `Home`, path: `/` },
+  { title: `Portfolio`, path: `/portfolio` },
   { title: `contact`, path: `/contact` },
-  { title: `faq`, path: `/faq` },
 ];
 
 const Header = () => {
   const classes = useStyles();
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" color="primary">
       <Toolbar>
         <Container maxWidth="md" className={classes.navbarDisplayFlex}>
           <IconButton edge="start" color="inherit" aria-label="home">

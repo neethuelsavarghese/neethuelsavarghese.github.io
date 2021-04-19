@@ -12,5 +12,6 @@ export const theme = responsiveFontSizes(
         400: "#DEDEDE",
       },
     },
+    shadows: ["none"],
   })
 );

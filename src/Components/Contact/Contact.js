@@ -55,6 +55,9 @@ const useStyles = makeStyles((theme) => ({
   headerText: {
     fontSize: "1.5rem",
   },
+  contactimg: {
+    boxShadow: 0,
+  },
 }));
 
 export default function Contact() {
@@ -69,13 +72,14 @@ export default function Contact() {
           <Typography component="h1" className={classes.headerText}>
             Connect with me
           </Typography>
-          <Card>
-            <CardMedia
-              className={classes.media}
-              image={headerimage}
-              height="140"
-            />
-          </Card>
+
+          <img
+            width="750"
+            border="0"
+            src={headerimage}
+            className={classes.contactimg}
+          />
+
           <Box display="flex">
             <Avatar className={classes.avatar}>
               <GitHubIcon

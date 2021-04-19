@@ -82,7 +82,7 @@ export default function Contact() {
             Connect with me
           </Typography>
 
-          <Box display="flex">
+          <Box display="flex" boxShadow={0}>
             <Avatar className={classes.avatar}>
               <GitHubIcon
                 onClick={() =>

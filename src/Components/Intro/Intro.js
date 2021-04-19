@@ -74,22 +74,30 @@ export default function Contact() {
           scalable and maintainable applications using ReactJS, Drupal,
           wordpress that use best practices and that extend existing
           technologies, libraries and APIs. I'm willing to do volunteer jobs
-          which involves programming also I'm open to contract jobs anywhere
-          Canad or USA,
+          which involves programming also I'm open to Full Time /Contract jobs
+          anywhere Canada or USA,
         </Typography>
         <div className={classes.paper}>
           <Typography component="h2" className={classes.headerText}>
-            FIND ME ON
-          </Typography>
-          <Typography component="p" className={classes.headerText}>
             Connect with me
           </Typography>
+
           <Box display="flex">
             <Avatar className={classes.avatar}>
-              <GitHubIcon />
+              <GitHubIcon
+                onClick={() =>
+                  window.open("https://github.com/neethuelsavarghese")
+                }
+              />
             </Avatar>
             <Avatar className={classes.avatar}>
-              <LinkedInIcon />
+              <LinkedInIcon
+                onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/in/neethu-varghese-5b1246a0/"
+                  )
+                }
+              />
             </Avatar>
             <Avatar className={classes.avatar}>
               <InstagramIcon />

@@ -10,7 +10,10 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import bg from "../../assets/tech.jpeg";
+import headerimage from "../../assets/main-header.png";
 import Box from "@material-ui/core/Box";
+import CardMedia from "@material-ui/core/CardMedia";
+import Card from "@material-ui/core/Card";
 
 function Copyright() {
   return (
@@ -47,14 +50,10 @@ const useStyles = makeStyles((theme) => ({
   },
   avatar: {
     margin: theme.spacing(1),
-    backgroundColor: theme.palette.secondary.main,
+    backgroundColor: theme.palette.primary.main,
   },
-  form: {
-    width: "100%", // Fix IE 11 issue.
-    marginTop: theme.spacing(1),
-  },
-  submit: {
-    margin: theme.spacing(3, 0, 2),
+  headerText: {
+    fontSize: "1.5rem",
   },
 }));
 
@@ -67,14 +66,32 @@ export default function Contact() {
       <Grid item xs={false} sm={4} md={7} className={classes.image} />
       <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
         <div className={classes.paper}>
-          <Typography component="h1">FIND ME ON</Typography>
-          <Typography component="p">Connect with me</Typography>
+          <Typography component="h1" className={classes.headerText}>
+            Connect with me
+          </Typography>
+          <Card>
+            <CardMedia
+              className={classes.media}
+              image={headerimage}
+              height="140"
+            />
+          </Card>
           <Box display="flex">
             <Avatar className={classes.avatar}>
-              <GitHubIcon />
+              <GitHubIcon
+                onClick={() =>
+                  window.open("https://github.com/neethuelsavarghese")
+                }
+              />
             </Avatar>
             <Avatar className={classes.avatar}>
-              <LinkedInIcon />
+              <LinkedInIcon
+                onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/in/neethu-varghese-5b1246a0/"
+                  )
+                }
+              />
             </Avatar>
             <Avatar className={classes.avatar}>
               <InstagramIcon />

@@ -6,14 +6,12 @@ import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import InstagramIcon from "@material-ui/icons/Instagram";
+import EmailIcon from "@material-ui/icons/Email";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import bg from "../../assets/tech.jpeg";
 import headerimage from "../../assets/main-header.png";
 import Box from "@material-ui/core/Box";
-import CardMedia from "@material-ui/core/CardMedia";
-import Card from "@material-ui/core/Card";
 
 function Copyright() {
   return (
@@ -98,7 +96,11 @@ export default function Contact() {
               />
             </Avatar>
             <Avatar className={classes.avatar}>
-              <InstagramIcon />
+              <EmailIcon
+                onClick={() =>
+                  window.open("mailto:neethuelsavarghese93@gmail.com")
+                }
+              />
             </Avatar>
           </Box>
         </div>

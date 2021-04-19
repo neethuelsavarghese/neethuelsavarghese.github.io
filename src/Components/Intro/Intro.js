@@ -6,7 +6,7 @@ import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import InstagramIcon from "@material-ui/icons/Instagram";
+import EmailIcon from "@material-ui/icons/Email";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import bg from "../../assets/tech.jpeg";
@@ -75,7 +75,7 @@ export default function Contact() {
           wordpress that use best practices and that extend existing
           technologies, libraries and APIs. I'm willing to do volunteer jobs
           which involves programming also I'm open to Full Time /Contract jobs
-          anywhere Canada or USA,
+          anywhere Canada or USA. Contact me at @ neethuelsavarghese93@gmail.com
         </Typography>
         <div className={classes.paper}>
           <Typography component="h2" className={classes.headerText}>
@@ -100,7 +100,11 @@ export default function Contact() {
               />
             </Avatar>
             <Avatar className={classes.avatar}>
-              <InstagramIcon />
+              <EmailIcon
+                onClick={() =>
+                  window.open("mailto:neethuelsavarghese93@gmail.com")
+                }
+              />
             </Avatar>
           </Box>
         </div>
